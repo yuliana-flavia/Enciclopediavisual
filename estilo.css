@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.tabla-contenedor {
+  border: 1px solid black;
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
